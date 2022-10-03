@@ -11,8 +11,8 @@ Assignment  | Funtion random number with parameters
 Made by     | Quinten Mahieu
 _____________________________`);
 
-function getRandomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
+function getRandomNumber(minNumber, maxNumber) {
+    return Math.floor(Math.random() * (maxNumber - minNumber) + minNumber);
     }
 
 console.log(getRandomNumber(80, 90));
