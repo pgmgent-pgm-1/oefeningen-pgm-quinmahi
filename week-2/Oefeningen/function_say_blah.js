@@ -12,8 +12,8 @@ Assignment  | Say Blah funtion
 Made by     | Quinten Mahieu
 _____________________________`);
 // Funtion
-function sayBlah(personeOne, personTwo, personThree, lineOne, lineTwo, lineThree, lineFour, lineFive) {
-    const person1 = personeOne;
+function sayBlah(personOne, personTwo, personThree, lineOne, lineTwo, lineThree, lineFour, lineFive) {
+    const person1 = personOne;
     const person2 = personTwo;
     const person3 = personThree;
     const line1 = lineOne;
