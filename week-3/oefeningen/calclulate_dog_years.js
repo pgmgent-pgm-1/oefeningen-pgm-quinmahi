@@ -13,10 +13,8 @@ Professor   | ${professor}
 _____________________________`);
 
 // Variables
-const humanYear = 5.5;
-
 function calculateDogYears(humanYear, conversionRate = 7) {
-    return(humanYear * conversionRate)
+    return(humanYear * conversionRate);
 }
 
-console.log(calculateDogYears(humanYear));
+console.log(calculateDogYears(5.5));
