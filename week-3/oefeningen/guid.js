@@ -11,8 +11,6 @@ Assignment  | ${assignment}
 Made by     | ${student}
 Professor   | ${professor} 
 _____________________________`);
-
-
 // Functions
 function generateGUID(n) {
     let output = "";
@@ -24,6 +22,7 @@ function generateGUID(n) {
     return output;
 }
 
+// Console log
 console.log(`
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 Random password generator

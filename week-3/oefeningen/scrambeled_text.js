@@ -11,19 +11,18 @@ Assignment  | ${assignment}
 Made by     | ${student}
 Professor   | ${professor} 
 _____________________________`);
-
+// Variables
+const string = "scramble";
 
 // Functions
 function scrambeledText(str) {
-    let output = "";
-    for (let i = 0; i <= (str - 1); i++) { // For loop to select the amount of characters === n
-        let char = (Math.floor(Math.random() * 74)); // Random number selector === the amount of characters from takeFromHere
-        output += takeFromHere.charAt(char); // Adds the chosen character from the Math.random to the output string
-    }
+    
 }
 
 // Console log
 console.log(`
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-${scrambeledText("This word")}
+Text scrambler
+------------------------------------------------------------------------------------
+Scramble the word ${string} | \t${scrambeledText(string)}
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_`);
