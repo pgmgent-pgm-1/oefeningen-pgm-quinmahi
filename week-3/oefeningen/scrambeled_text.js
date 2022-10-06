@@ -12,11 +12,15 @@ Made by     | ${student}
 Professor   | ${professor} 
 _____________________________`);
 // Variables
-const string = "scramble";
+const string = "scramble eggs sausage";
 
 // Functions
 function scrambeledText(str) {
-    
+    str = str.split(" "); // Converting the string into an array, that way if there are multiple words they can all be scrambled separately
+    for (let word of str) {
+        str =+ " " + word;
+        return(word);
+    }
 }
 
 // Console log
