@@ -6,10 +6,12 @@
 
 ## Status:
 **<span style="color:red">!!! Stuck !!!</span>**
+*Unable to figure out, to only count each index of the string only once*
 
 ## To do list:
 - [x] Update pre-assignment console.log
 - [x] Creating the console.log outputting the assignment
 - [x] Creating the function to scramble the word
   - [x] Scramble all letters in the string
-  - [ ] Only use each index position once as to not re-use the same characters  
+  - [ ] Only use each index position once as to not re-use the same characters
+- [ ] Console log the output   
