@@ -12,15 +12,16 @@ Made by     | ${student}
 Professor   | ${professor} 
 _____________________________`);
 // Variables
-const string = "scramble eggs sausage";
+let string = "scramble";
 
 // Functions
-function scrambeledText(str) {
-    str = str.split(" "); // Converting the string into an array, that way if there are multiple words they can all be scrambled separately
-    for (let word of str) {
-        str =+ " " + word;
-        return(word);
+function scrambledText(str) { 
+    let output = ""; 
+    for (let i = 0; i <= (str.length - 1); i++) { 
+        let char = (Math.floor(Math.random() * (str.length))); 
+        output += str.charAt(char); 
     }
+    return output;
 }
 
 // Console log
@@ -28,5 +29,6 @@ console.log(`
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 Text scrambler
 ------------------------------------------------------------------------------------
-Scramble the word ${string} | \t${scrambeledText(string)}
+Scramble the string | ${string}
+Scrambeled version | ${scrambledText(string)}
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_`);
