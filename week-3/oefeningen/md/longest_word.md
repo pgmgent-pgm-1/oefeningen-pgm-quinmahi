@@ -10,8 +10,8 @@
 ## To do list:
 - [x] Update pre-assignment console.log
   - [x] Remove pre-assigment console.log and replacing it with only a .md file from this point forward 
-- [ ] Complete `function searchLongestWord(str)`
+- [x] Complete `function searchLongestWord(str)`
   - [x] Convert the string to an array, in order to be able to separate the words
-  - [ ] Count the length of each word, and store the value somewhere
-  - [ ] Compare the value and return the word
-- [ ] Console log the function
+  - [x] Count the length of each word
+  - [x] Compare the value and return the word
+- [x] Console log the function
