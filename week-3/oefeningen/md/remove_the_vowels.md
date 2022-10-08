@@ -2,7 +2,7 @@
 
 |Made by|Professor|Assignment|
 |-------|---------|---------------|
-|[Quinten Mahieu](https://www.quintenmahieu.com/ "Website")|[Michael Vanderpoorten](https://yungpanda.com/ "YungPanda")|[Scrambeled text](https://www.pgm.gent/pgm-1/exercises/week_3.html#remove-the-vowels "Remove the vowels")|
+|[Quinten Mahieu](https://www.quintenmahieu.com/ "Website")|[Michael Vanderpoorten](https://yungpanda.com/ "YungPanda")|[Remove the vowels](https://www.pgm.gent/pgm-1/exercises/week_3.html#remove-the-vowels "Remove the vowels")|
 
 ## Status:
 **<span style="color:green">Completed</span>**
