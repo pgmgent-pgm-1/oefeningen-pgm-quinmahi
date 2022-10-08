@@ -1,22 +1,21 @@
-// Console log | before assigment
-const professor = "Michael Vanderpoorten";
-const student = "Quinten Mahieu";
-const assignment = "Longest word | https://www.pgm.gent/pgm-1/exercises/week_3.html#longest-word";
-
-console.log(`
-░▄▀▀░▄▀▄░█▄░█░▄▀▀░▄▀▄░█▒░▒██▀
-░▀▄▄░▀▄▀░█▒▀█▒▄██░▀▄▀▒█▄▄░█▄▄
-_____________________________
-Assignment  | ${assignment} 
-Made by     | ${student}
-Professor   | ${professor} 
-_____________________________`);
-
+// Variables
 const string = "Full Stack JavaScript Development"; 
 
+// Functions
 function searchLongestWord(str) {
-    str = str.split(" ");
-    str.every(Math.max(.length))
+    let arr = str.split(" ");
+    let max = ""
+    for (let i = 0; i < arr.length; i++) {
+        if (max.length < arr[i].length) {
+            max = arr[i];
+        }
+    }
+    return max;
 }
 
-console.log(searchLongestWord(string));
+// Console.log
+console.log(`
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+String | ${string}
+Longest word === ${searchLongestWord(string)}
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_`);

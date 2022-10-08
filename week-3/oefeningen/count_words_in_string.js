@@ -12,7 +12,7 @@ Made by     | ${student}
 Professor   | ${professor} 
 _____________________________`);
 // Variables
-const str = "I am, so, so, so f@*!ing fungry!!!!!";
+const str = "I am, so, so, so f@*!ing hungry!!!!!";
 
 // Functions
 function removePunctuation(myString) { // Removing punctuation, first named calculateAmountOfWords -> name changed to log the the sentence and amount of words separately
@@ -21,7 +21,7 @@ function removePunctuation(myString) { // Removing punctuation, first named calc
 }
 
 function calculateAmountOfWords(myString) { // Removing punctuation, first named calculateAmountOfWords -> name changed to log the the sentence and amount of words separately
-    myString = myString.replace(/[.,\/#!$%\^&\*;:{}=\-_~()]/g,""); // Removing all punctuation
+    removePunctuation(myString);
     myString = myString.split(" "); // Converting the sentence into an array, where each word will be at a separate index number separately
     return(myString.length); // Returning the lenght in numbers
 }
