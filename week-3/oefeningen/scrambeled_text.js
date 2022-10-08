@@ -1,34 +1,27 @@
-// Console log | before assigment
-const professor = "Michael Vanderpoorten";
-const student = "Quinten Mahieu";
-const assignment = "Scrambeled text | https://www.pgm.gent/pgm-1/exercises/week_3.html#scrambled-text";
+// variables
+let string = "Scramble";
+let string2 = "Niet";
+let string3 = "Normaal";
 
-console.log(`
-░▄▀▀░▄▀▄░█▄░█░▄▀▀░▄▀▄░█▒░▒██▀
-░▀▄▄░▀▄▀░█▒▀█▒▄██░▀▄▀▒█▄▄░█▄▄
-_____________________________
-Assignment  | ${assignment} 
-Made by     | ${student}
-Professor   | ${professor} 
-_____________________________`);
-// Variables
-let string = "scramble";
-
-// Functions
-function scrambledText(str) { 
+// functions
+function scrambledText(str) {
+    let arr = str.split(""); 
     let output = ""; 
-    for (let i = 0; i <= (str.length - 1); i++) { 
-        let char = (Math.floor(Math.random() * (str.length))); 
-        output += str.charAt(char); 
+    for (let i = 0; i <= str.length - 1; i++) { 
+        let char = (Math.floor(Math.random() * (arr.length))); 
+        output += arr[char]; 
+        arr.splice(char, 1)
     }
     return output;
 }
 
-// Console log
+
+// console
 console.log(`
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 Text scrambler
 ------------------------------------------------------------------------------------
-Scramble the string | ${string}
-Scrambeled version | ${scrambledText(string)}
+String 1 "${string}" > "${scrambledText(string)}"
+String 1 "${string2}" > "${scrambledText(string2)}"
+String 1 "${string3}" > "${scrambledText(string3)}"
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_`);

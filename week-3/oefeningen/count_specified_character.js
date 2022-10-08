@@ -8,6 +8,7 @@ function countSpecifiedCharacter(str, chr) {
         if (str[i] === chr) {
             c += 1;
         }
+
 // If statement determining the outcome
     }
     if (c === 0) {
