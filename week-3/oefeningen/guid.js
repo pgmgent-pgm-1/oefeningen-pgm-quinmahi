@@ -14,13 +14,14 @@ Professor   | ${professor}
 _____________________________`);
 // Functions
 function generateGUID(n) {
+  n = parseFloat(n);
   let output = "";
   const takeFromHere =
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ0123456789@#&é”’\"'\\(§è!çà)°-_¨^*$€%ù£`<>?,;./:+="; // Characters the password generator will chose from here
-  for (let i = 0; i <= n - 1; i++) {
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ0123456789@#&é”’\"'\\(§è!çà)°-_¨^*$€%ù£`<>?,;./:+="; // Characters the password generator will chose from go here
+  for (let i = 0; i < n; i++) {
     // For loop to select the amount of characters === n
-    let char = Math.floor(Math.random() * takeFromHere.length); // Random number selector === the amount of characters from takeFromHere
-    output += takeFromHere.charAt(char); // Adds the chosen character from the Math.random to the output string
+    let index = Math.floor(Math.random() * (takeFromHere.length - 1)); // Random number selector === the amount of characters from takeFromHere
+    output += takeFromHere.charAt(index); // Adds the chosen character from the Math.random to the output string
   }
   return output;
 }
@@ -30,6 +31,6 @@ console.log(`
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 Random password generator
 ------------------------------------------------------------------------------------
-Password 1 | ${generateGUID(70)}
-Password 2 | ${generateGUID(50)}
+Password 1 | ${generateGUID(5)}
+Password 2 | ${generateGUID(10)}
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_`);

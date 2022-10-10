@@ -5,16 +5,15 @@ let string3 = "Normaal";
 
 // functions
 function scrambledText(str) {
-    let arr = str.split(""); 
-    let output = ""; 
-    for (let i = 0; i <= str.length - 1; i++) { 
-        let index = (Math.floor(Math.random() * arr.length)); 
-        output += arr[index]; 
-        arr.splice(index, 1);
-    }
-    return output;
+  let arr = str.split("");
+  let output = "";
+  for (let i = 1; i <= str.length; i++) {
+    let index = Math.round(Math.random() * arr.length);
+    output += arr[index];
+    arr.splice(index, 1);
+  }
+  return output;
 }
-
 
 // console
 console.log(`

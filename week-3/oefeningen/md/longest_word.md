@@ -8,8 +8,6 @@
 **<span style="color:green">Completed</span>**
 
 ## To do list:
-- [x] Update pre-assignment console.log
-  - [x] Remove pre-assigment console.log and replacing it with only a .md file from this point forward 
 - [x] Complete `function searchLongestWord(str)`
   - [x] Convert the string to an array, in order to be able to separate the words
   - [x] Count the length of each word
