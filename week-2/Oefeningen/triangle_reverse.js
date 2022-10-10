@@ -17,12 +17,12 @@ let seperator = " ";
 
 // for loop
 for (i = 0; i < nWidth; i++) {
-    let output = "";
-    for (j = 0; j < i; j++) {
-        if (nWidth > 0) {
-            output += seperator;
-        }
-        output += character;
+  let output = "";
+  for (j = 0; j < i; j++) {
+    if (nWidth > 0) {
+      output += seperator;
     }
-    console.log(output);
+    output += character;
+  }
+  console.log(output);
 }

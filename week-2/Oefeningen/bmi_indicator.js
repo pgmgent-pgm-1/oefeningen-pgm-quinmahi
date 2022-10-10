@@ -4,28 +4,29 @@ Hosted by | Michael Vanderpoorten
 Made by | Quinten Mahieu
 */
 console.log(
-    `░▄▀▀░▄▀▄░█▄░█░▄▀▀░▄▀▄░█▒░▒██▀
+  `░▄▀▀░▄▀▄░█▄░█░▄▀▀░▄▀▄░█▒░▒██▀
     ░▀▄▄░▀▄▀░█▒▀█▒▄██░▀▄▀▒█▄▄░█▄▄
     _____________________________
     Assignment  | BMI Indicator
     Made by     | Quinten Mahieu
-    _____________________________`)
+    _____________________________`
+);
 // Variables
 const lenght = 1.76;
 const weight = 85;
 
 // Math
-const bmi = Math.floor((weight / (lenght * lenght)));
+const bmi = Math.floor(weight / (lenght * lenght));
 
 // Console
 
 if (bmi <= 18.5) {
-    console.log(`Jouw bmi is ${bmi}. Je hebt ondergewicht.`);
+  console.log(`Jouw bmi is ${bmi}. Je hebt ondergewicht.`);
 } else if (bmi > 18.5 && bmi < 25) {
-    console.log(`Jouw bmi is ${bmi}. Je bent het aanbevolen gewicht.`);
+  console.log(`Jouw bmi is ${bmi}. Je bent het aanbevolen gewicht.`);
 } else if (bmi >= 25 && bmi <= 30) {
-    console.log(`Jouw bmi is ${bmi}. Je hebt overwicht.`);
+  console.log(`Jouw bmi is ${bmi}. Je hebt overwicht.`);
 } else {
-    bmi > 30;
-    console.log(`Jouw bmi is ${bmi}. Je bent obesitas.`);
+  bmi > 30;
+  console.log(`Jouw bmi is ${bmi}. Je bent obesitas.`);
 }

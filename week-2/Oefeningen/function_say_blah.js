@@ -12,17 +12,26 @@ Assignment  | Say Blah funtion
 Made by     | Quinten Mahieu
 _____________________________`);
 // Funtion
-function sayBlah(personOne, personTwo, personThree, lineOne, lineTwo, lineThree, lineFour, lineFive) {
-    const person1 = personOne;
-    const person2 = personTwo;
-    const person3 = personThree;
-    const line1 = lineOne;
-    const line2 = lineTwo;
-    const line3 = lineThree;
-    const line4 = lineFour;
-    const line5 = lineFive;
+function sayBlah(
+  personOne,
+  personTwo,
+  personThree,
+  lineOne,
+  lineTwo,
+  lineThree,
+  lineFour,
+  lineFive
+) {
+  const person1 = personOne;
+  const person2 = personTwo;
+  const person3 = personThree;
+  const line1 = lineOne;
+  const line2 = lineTwo;
+  const line3 = lineThree;
+  const line4 = lineFour;
+  const line5 = lineFive;
 
-    return `
+  return `
     ${person1}: ${line1}
     ${person2}: ${line2}
     ${person1}: ${line3}
@@ -32,14 +41,16 @@ function sayBlah(personOne, personTwo, personThree, lineOne, lineTwo, lineThree,
 }
 
 // Console
-const output = sayBlah("Zack",
-"Leonard",
-"Penny",
-"Check it out",
-"all about planets this month.",
-"That’s an atom.",
-"Agree to disagree. That’s what I love about science, there’s no one right answer.",
-"So, you and Zack again, huh?",
-"Yeah, yeah, me and Zack again.");
+const output = sayBlah(
+  "Zack",
+  "Leonard",
+  "Penny",
+  "Check it out",
+  "all about planets this month.",
+  "That’s an atom.",
+  "Agree to disagree. That’s what I love about science, there’s no one right answer.",
+  "So, you and Zack again, huh?",
+  "Yeah, yeah, me and Zack again."
+);
 
 console.log(output);

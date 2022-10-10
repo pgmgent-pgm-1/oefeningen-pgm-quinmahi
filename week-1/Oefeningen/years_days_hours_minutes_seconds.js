@@ -6,7 +6,6 @@ Link naar oefening | https://www.pgm.gent/pgm-1/exercises/week_1.html#years-days
 // Variables
 const seconds = 78883003736;
 
-
 // Console
 console.log(`============================================================
 Amount of seconds to convert = ${seconds} 

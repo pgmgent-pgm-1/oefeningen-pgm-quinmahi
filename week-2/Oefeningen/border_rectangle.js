@@ -18,16 +18,16 @@ let separator = " ";
 
 // for loop
 for (let i = 0; i < nRows; i++) {
-    let line = "";
-    for (let j = 0; j < nCols; j++) {
-        if (j > 0) {
-            line += separator;
-        }
-        if (i !== 0 && i !== nRows - 1 && j !== 0 && j !== nCols - 1) {
-            line += separator;
-        } else {
-            line += character;
-        }
+  let line = "";
+  for (let j = 0; j < nCols; j++) {
+    if (j > 0) {
+      line += separator;
     }
-    console.log(line);
+    if (i !== 0 && i !== nRows - 1 && j !== 0 && j !== nCols - 1) {
+      line += separator;
+    } else {
+      line += character;
+    }
+  }
+  console.log(line);
 }

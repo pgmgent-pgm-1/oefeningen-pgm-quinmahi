@@ -12,7 +12,7 @@ Made by     | Quinten Mahieu
 _____________________________`);
 
 function sayHello(sayThis) {
-    return sayThis;
+  return sayThis;
 }
 
 console.log(`${sayHello("Hello world")}

@@ -9,7 +9,12 @@ const guess = 5; // Voeg hier uw gok in en speel, geen prijs te winnen!
 
 // if/else statements + Console
 if (guess === number) {
-    console.log(`============================================================\nProficiat het getal is ${guess}\nU wint niets!\n============================================================`);
-} else { (guess <= number)
-    console.log(`============================================================\nJammer, uw gok was ${guess}.\nHet juiste getal was ${number}\n============================================================`);
+  console.log(
+    `============================================================\nProficiat het getal is ${guess}\nU wint niets!\n============================================================`
+  );
+} else {
+  guess <= number;
+  console.log(
+    `============================================================\nJammer, uw gok was ${guess}.\nHet juiste getal was ${number}\n============================================================`
+  );
 }

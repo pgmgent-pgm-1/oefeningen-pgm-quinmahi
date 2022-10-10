@@ -1,16 +1,16 @@
 // Variables
-const string = "Full Stack JavaScript Development"; 
+const string = "Full Stack JavaScript Development";
 
 // Functions
 function searchLongestWord(str) {
-    let arr = str.split(" ");
-    let max = ""
-    for (let i = 0; i < arr.length; i++) {
-        if (max.length < arr[i].length) {
-            max = arr[i];
-        }
+  let arr = str.split(" ");
+  let max = "";
+  for (let i = 0; i < arr.length; i++) {
+    if (max.length < arr[i].length) {
+      max = arr[i];
     }
-    return max;
+  }
+  return max;
 }
 
 // Console.log

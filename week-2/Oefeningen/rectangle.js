@@ -18,12 +18,12 @@ let seperator = " ";
 
 // for loop
 for (let i = 0; i < nRows; i++) {
-    let line = "";
-    for (let j = 0; j < nCols; j++) {
-        if (j > 0) {
-            line += seperator;
-        }
-        line += character
+  let line = "";
+  for (let j = 0; j < nCols; j++) {
+    if (j > 0) {
+      line += seperator;
     }
-    console.log(line);
+    line += character;
+  }
+  console.log(line);
 }

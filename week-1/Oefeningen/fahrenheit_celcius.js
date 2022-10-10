@@ -9,7 +9,7 @@ const f = 95;
 
 // Math
 // C > F
-const cToF = (c * (9/5)) + 32;
+const cToF = c * (9 / 5) + 32;
 // F>C
 const fToC = (f - 32) * (5 / 9);
 

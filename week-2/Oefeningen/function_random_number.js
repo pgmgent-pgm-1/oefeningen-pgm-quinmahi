@@ -12,7 +12,7 @@ Made by     | Quinten Mahieu
 _____________________________`);
 
 function getRandomNumber(number) {
-    return Math.floor(Math.random() * number);
+  return Math.floor(Math.random() * number);
 }
 
 console.log(getRandomNumber(25));

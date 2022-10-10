@@ -24,11 +24,12 @@ for (let i = 1; i < n1; i++) {
 }
 */
 
-for (let i = 1; i < n1; i++) { // Naast elkaar
-    if (i % 2 === 0) {
-        line += i;
-    } else {
-        line += separator;
-    }
+for (let i = 1; i < n1; i++) {
+  // Naast elkaar
+  if (i % 2 === 0) {
+    line += i;
+  } else {
+    line += separator;
+  }
 }
 console.log(line);

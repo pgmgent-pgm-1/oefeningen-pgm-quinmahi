@@ -15,10 +15,13 @@ const year = 1700;
 let isLeapYear = false; // Uitkomst werkt zonder dit?
 
 // Juist dankzij
-if ((year % 4 === 0 && year % 100 !== 0) || (year % 100 === 0 && year % 400 === 0)) {
-    isLeapYear = true;
+if (
+  (year % 4 === 0 && year % 100 !== 0) ||
+  (year % 100 === 0 && year % 400 === 0)
+) {
+  isLeapYear = true;
 } else {
-    isLeapYear = false;
+  isLeapYear = false;
 }
 
-console.log(`Is ${year} a leap year? ${isLeapYear}`)
+console.log(`Is ${year} a leap year? ${isLeapYear}`);

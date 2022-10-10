@@ -10,7 +10,8 @@ const gender = "Male";
 const age = 22;
 const married = false;
 const avatar = "\u{1F90C}";
-const quote = "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. \n-Martin Fowler";
+const quote =
+  "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. \n-Martin Fowler";
 const dutch = "**********";
 const english = "********";
 const french = "***";

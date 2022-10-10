@@ -15,10 +15,10 @@ let output = "";
 
 // For
 for (let i = 0; i < input.length; i++) {
-    if (i % 2 === 0) {
-        output += input[i];
-    } else {
-        output += "PGM";
-    }
+  if (i % 2 === 0) {
+    output += input[i];
+  } else {
+    output += "PGM";
+  }
 }
 console.log(output);

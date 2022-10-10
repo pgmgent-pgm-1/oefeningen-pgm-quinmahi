@@ -12,9 +12,9 @@ Made by     | Quinten Mahieu
 _____________________________`);
 
 function getPersonalMessage(name) {
-    const output = `${name} is heel leuk`;
-    return output
+  const output = `${name} is heel leuk`;
+  return output;
 }
 
-console.log(getPersonalMessage("Jouw mama"))
-console.log(getPersonalMessage("Jouw 2e mama"))
+console.log(getPersonalMessage("Jouw mama"));
+console.log(getPersonalMessage("Jouw 2e mama"));

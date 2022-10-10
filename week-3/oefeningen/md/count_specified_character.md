@@ -5,7 +5,7 @@
 |[Quinten Mahieu](https://www.quintenmahieu.com/ "Website")|[Michael Vanderpoorten](https://yungpanda.com/ "YungPanda")|[Count specified character](https://www.pgm.gent/pgm-1/exercises/week_3.html#longest-word "Count specified character")|
 
 ## Status:
-**<span style="color:orange">In progress</span>**
+**<span style="color:green">Completed</span>**
 
 ## To do list:
 - [x] Complete `function countSpecifiedCharacter(str, chr)`

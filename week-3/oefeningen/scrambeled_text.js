@@ -8,9 +8,9 @@ function scrambledText(str) {
     let arr = str.split(""); 
     let output = ""; 
     for (let i = 0; i <= str.length - 1; i++) { 
-        let char = (Math.floor(Math.random() * (arr.length))); 
-        output += arr[char]; 
-        arr.splice(char, 1)
+        let index = (Math.floor(Math.random() * arr.length)); 
+        output += arr[index]; 
+        arr.splice(index, 1);
     }
     return output;
 }

@@ -12,30 +12,29 @@ Made by     | Quinten Mahieu
 _____________________________`);
 const age = 22;
 
-
 function checkAge(age) {
-    if (age >= 18) {
-        return true;
-    } else {
-        return("Did your parents allow you?");
-    }
+  if (age >= 18) {
+    return true;
+  } else {
+    return "Did your parents allow you?";
+  }
 }
 console.log(checkAge(age));
 
 function checkAgeTernaryOperator(age) {
-    return (age >= 18 ? true : "Did yout parents allow you?");
+  return age >= 18 ? true : "Did yout parents allow you?";
 }
 
 console.log(checkAgeTernaryOperator(age));
 
 function min(a, b) {
-    return (a < b ? a : b);
+  return a < b ? a : b;
 }
 
-console.log(min(3,5));
+console.log(min(3, 5));
 
 function pow(x, n) {
-    return (Math.pow(x, n));
+  return Math.pow(x, n);
 }
 
-console.log(pow(4,3));
+console.log(pow(4, 3));

@@ -12,8 +12,8 @@ Made by     | Quinten Mahieu
 _____________________________`);
 
 function convertFahrenheitToCelcius(F) {
-    const celcius = (F - 32) / 1.8;
-    return celcius;
+  const celcius = (F - 32) / 1.8;
+  return celcius;
 }
 
-console.log(convertFahrenheitToCelcius(70))
+console.log(convertFahrenheitToCelcius(70));

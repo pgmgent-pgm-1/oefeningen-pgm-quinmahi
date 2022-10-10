@@ -12,8 +12,8 @@ const d = 5;
 // Math
 // Surface
 const rectangle = l * b;
-const triangle = l * h / 2;
-const cirlce = Math.pow(d, 2) * Math.PI /4;
+const triangle = (l * h) / 2;
+const cirlce = (Math.pow(d, 2) * Math.PI) / 4;
 // Volume
 const cylinder = cirlce * h;
 const cube = l * b * h;

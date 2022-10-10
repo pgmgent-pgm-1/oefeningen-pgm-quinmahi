@@ -18,6 +18,6 @@ let sum = [];
 
 // For loop // CURSED
 for (let i = 0; i < indexArr_1; i++) {
-    sum[i] = (arr_1[i] + arr_2[i]);
+  sum[i] = arr_1[i] + arr_2[i];
 }
 console.log(sum);

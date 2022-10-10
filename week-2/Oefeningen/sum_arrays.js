@@ -29,20 +29,19 @@ for (let j = 0; j < arr_2.length; j++) {
     sumArr_2 += arr_2[j];
 } */
 
-
 let sumArr_1 = 0;
-for (let i of arr_1) { // Variable i van Variable arr_1
-    sumArr_1 += i // Variable sumArr1 
+for (let i of arr_1) {
+  // Variable i van Variable arr_1
+  sumArr_1 += i; // Variable sumArr1
 }
 
 let sumArr_2 = 0;
 for (let j of arr_2) {
-    sumArr_2 += j
+  sumArr_2 += j;
 }
 
-
 // Math
-x = sumArr_1 + sumArr_2
+x = sumArr_1 + sumArr_2;
 
 // Console
-console.log(`${sumArr_1} + ${sumArr_2} = ${x}`)
+console.log(`${sumArr_1} + ${sumArr_2} = ${x}`);

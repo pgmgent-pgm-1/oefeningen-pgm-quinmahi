@@ -12,7 +12,7 @@ Made by     | Quinten Mahieu
 _____________________________`);
 
 function getRandomNumber(minNumber, maxNumber) {
-    return Math.floor(Math.random() * (maxNumber - minNumber) + minNumber);
-    }
+  return Math.floor(Math.random() * (maxNumber - minNumber) + minNumber);
+}
 
 console.log(getRandomNumber(80, 90));
