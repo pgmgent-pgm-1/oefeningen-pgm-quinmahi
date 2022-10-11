@@ -26,7 +26,7 @@ tempStr = "";
 
 /* For of loop */
 let p = 1;
-for (player of arr) {
+for (const player of arr) {
   tempStr += `Player ${p}: ${player} \n`;
   p++;
 }
@@ -35,7 +35,7 @@ tempStr = "";
 
 /* For in loop */
 p = 1;
-for (player in arr) {
+for (const player in arr) {
   tempStr += `Player ${p}: ${arr[player]} \n`;
   p++;
 }
