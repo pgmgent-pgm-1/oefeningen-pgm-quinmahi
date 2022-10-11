@@ -4,7 +4,7 @@ let arrLength = colors.push("Yellow", "Blue");
 console.log(arrLength);
 let removedElement = colors.pop();
 console.log(removedElement);
-const removedElements = colors.splice(3, 0, "Orange")
+const removedElements = colors.splice(3, 0, "Orange");
 console.log(removedElements);
 console.log(colors);
 removedElement = colors.shift();
