@@ -1,5 +1,5 @@
-const length = parseInt(window.prompt("What is your length?"));
-const weight = parseInt(window.prompt("What is your weight?"));
+const length = parseFloat(window.prompt("What is your length? (Use meters)"));
+const weight = parseFloat(window.prompt("What is your weight? (In kilograms)"));
 
 function calculateBMI(weight, length) {
   const bmi = Math.floor(weight / (length * length));
