@@ -3,17 +3,16 @@ BMI Indicator | Week 2 | https://www.pgm.gent/pgm-1/exercises/week_2.html#bmi-in
 Hosted by | Michael Vanderpoorten
 Made by | Quinten Mahieu
 */
-console.log(
-  `░▄▀▀░▄▀▄░█▄░█░▄▀▀░▄▀▄░█▒░▒██▀
+console.log(`
+    ░▄▀▀░▄▀▄░█▄░█░▄▀▀░▄▀▄░█▒░▒██▀
     ░▀▄▄░▀▄▀░█▒▀█▒▄██░▀▄▀▒█▄▄░█▄▄
     _____________________________
     Assignment  | BMI Indicator
     Made by     | Quinten Mahieu
-    _____________________________`
-);
+    _____________________________`);
 // Variables
-const lenght = 1.76;
-const weight = 85;
+const lenght = 1.7;
+const weight = 70;
 
 // Math
 const bmi = Math.floor(weight / (lenght * lenght));
@@ -27,6 +26,5 @@ if (bmi <= 18.5) {
 } else if (bmi >= 25 && bmi <= 30) {
   console.log(`Jouw bmi is ${bmi}. Je hebt overwicht.`);
 } else {
-  bmi > 30;
   console.log(`Jouw bmi is ${bmi}. Je bent obesitas.`);
 }

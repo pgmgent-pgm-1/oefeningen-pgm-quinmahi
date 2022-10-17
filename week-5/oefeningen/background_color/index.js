@@ -1,0 +1,1 @@
+document.body.style.backgroundColor = window.prompt("Define the color");

@@ -7,12 +7,13 @@ const a = [
 ];
 
 let output = "";
+
 a.forEach((items, index) => {
   output += `
 ------------------------------------------------------
 row ${index}
 ------------------------------------------------------
-`;
+  `;
   items.forEach((item) => {
     output += item + "\n";
   });
