@@ -4,5 +4,7 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "livePreview.defaultPreviewPath": "/Users/swarm/Artevelde/pgm-code/pgm-1/index.html"
+  }
 }
